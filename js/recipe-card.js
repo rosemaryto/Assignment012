@@ -24,14 +24,29 @@ class Ingredient {
 
 //CREATE NEW INSTANCE OF RECIPE
 const recipe1 = new Recipe('Guacamole','4')
+
 //CREATE NEW INSTANCE OF INGREDIENT
-const ing1 = new Ingredient('3 Avacados')
-const ing2 = new Ingredient('4 Avacados')
-const ing3 = new Ingredient('5 Avacados')
+const ing1 = new Ingredient('-3 Avacados')
+const ing2 = new Ingredient('-1 Lime')
+const ing3 = new Ingredient('-1 Teaspoon Salt')
+const ing4 = new Ingredient('-1/2 Cup Onion')
+const ing5 = new Ingredient('-3 Tablespoons Cilantro')
+const ing6 = new Ingredient('-2 Diced Tomatoes')
+const ing7 = new Ingredient('-1 Teaspoon Garlic')
+const ing8 = new Ingredient('-1 Pinch Ground Pepper')
+
+
+
 //ADD INGREDIENTS TO RECEIPE
 recipe1.addIngredient(ing1)
 recipe1.addIngredient(ing2)
 recipe1.addIngredient(ing3)
+recipe1.addIngredient(ing4)
+recipe1.addIngredient(ing5)
+recipe1.addIngredient(ing6)
+recipe1.addIngredient(ing7)
+recipe1.addIngredient(ing8)
+
 
 
 console.log(`${recipe1.showRecipe()}`)
